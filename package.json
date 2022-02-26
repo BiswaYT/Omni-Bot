@@ -1,0 +1,47 @@
+{
+  "name": "omni",
+  "version": "1.0.0",
+  "description": "Multifunctional Discord Bot",
+  "main": "cd src && omni.js",
+  "scripts": {
+    "test": "eslint ./",
+    "start": "cd src && node omni.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmniDiscord/OmniBot.git"
+  },
+  "keywords": [
+    "omnibot",
+    "omni",
+    "omnidiscord",
+    "klasa",
+    "discord",
+    "bot"
+  ],
+  "author": "Piyush Choubey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OmniDiscord/OmniBot/issues"
+  },
+  "homepage": "https://github.com/OmniDiscord/OmniBot#readme",
+  "dependencies": {
+    "discord.js": "discordjs/discord.js",
+    "klasa": "dirigeants/klasa#master",
+    "klasa-member-gateway": "dirigeants/klasa-member-gateway",
+    "moment": "^2.24.0",
+    "mongodb": "^3.2.3",
+    "opusscript": "^0.0.7",
+    "os": "^0.1.1",
+    "parse-ms": "^2.1.0",
+    "yt-search": "^0.4.1",
+    "ytdl-core": "^0.29.1"
+  },
+  "peerDependencies": {
+    "node-opus": "^0.3.1",
+    "opusscript": "^0.0.6"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
+}
